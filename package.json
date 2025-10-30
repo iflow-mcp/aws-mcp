@@ -1,8 +1,11 @@
 {
-  "name": "chatwithcloud-mcp",
+  "name": "@iflow-mcp/aws-mcp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "aws-mcp": "./index.ts"
+  },
   "scripts": {
     "start": "tsx index.ts"
   },
